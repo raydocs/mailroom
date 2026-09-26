@@ -1,0 +1,14 @@
+node_modules/
+.npm-cache/
+dist/
+.wrangler/
+.wrangler-mcp-build/
+.dev.vars
+.DS_Store
+*.log
+*.tsbuildinfo
+.lody/
+
+# The MCP Worker config contains owner-specific values (Access AUD, allowed
+# emails, hostnames). Copy wrangler.mcp.example.jsonc and fill in your own.
+wrangler.mcp.jsonc
